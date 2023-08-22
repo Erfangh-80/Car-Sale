@@ -1,0 +1,75 @@
+export const Bg1 = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="640"
+      height="360"
+      fill="none"
+    >
+      <g clip-path="url(#a)">
+        <rect width="640" height="360" fill="#54A6FF" rx="10" />
+        <circle
+          cx="230"
+          cy="305"
+          r="25"
+          stroke="#fff"
+          strokeOpacity=".06"
+          strokeWidth="10"
+        />
+        <circle
+          cx="230"
+          cy="305"
+          r="75"
+          stroke="#fff"
+          strokeOpacity=".06"
+          strokeWidth="20"
+        />
+        <circle
+          cx="230.5"
+          cy="304.5"
+          r="137.5"
+          stroke="#fff"
+          strokeOpacity=".06"
+          strokeWidth="20"
+        />
+        <circle
+          cx="230"
+          cy="305"
+          r="200"
+          stroke="#fff"
+          strokeOpacity=".06"
+          strokeWidth="20"
+        />
+        <circle
+          cx="230.5"
+          cy="304.5"
+          r="262.5"
+          stroke="#fff"
+          strokeOpacity=".06"
+          strokeWidth="20"
+        />
+        <circle
+          cx="230"
+          cy="305"
+          r="325"
+          stroke="#fff"
+          strokeOpacity=".06"
+          strokeWidth="20"
+        />
+        <circle
+          cx="230.5"
+          cy="304.5"
+          r="387.5"
+          stroke="#fff"
+          strokeOpacity=".06"
+          strokeWidth="20"
+        />
+      </g>
+      <defs>
+        <clipPath id="a">
+          <rect width="640" height="360" fill="#fff" rx="10" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
